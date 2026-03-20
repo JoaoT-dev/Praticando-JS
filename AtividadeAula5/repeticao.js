@@ -24,16 +24,18 @@ console.log(`A soma de 1 até ${N} é: ${soma}`);
 
 
 //INTERMEDIARIO
+
+// 1.
+for (let i = 1; i <= 50; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
 // 4.
 let senhaCorreta = "1234";
 let tentativa = "";
 
 while (tentativa !== senhaCorreta) {
     tentativa = prompt("4. Digite a senha:");
-}
-// 1.
-for (let i = 1; i <= 50; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
 }
