@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Bonificação - RH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Avaliação de Desempenho</h1>
+        <form id="bonificacaoForm">
+            <div class="input-group">
+                <label for="nome">Nome do Vendedor:</label>
+                <input type="text" id="nome" required>
+            </div>
+
+            <div class="input-group">
+                <label for="nivel">Nível do Vendedor:</label>
+                <select id="nivel" required>
+                    <option value="">Selecione...</option>
+                    <option value="I">Nível I</option>
+                    <option value="II">Nível II</option>
+                    <option value="III">Nível III</option>
+                </select>
+            </div>
+
+            <div class="input-group">
+                <label for="vendas">Total Vendido (R$):</label>
+                <input type="number" id="vendas" step="0.01">
+            </div>
+
+            <button type="submit">Calcular Bonificação</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
