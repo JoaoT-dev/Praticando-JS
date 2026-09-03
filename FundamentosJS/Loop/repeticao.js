@@ -22,7 +22,7 @@ for (let i = 1; i <= N; i++) {
 }
 console.log(`A soma de 1 até ${N} é: ${soma}`);
 
-
+/*
 //INTERMEDIARIO
 
 // 1.
@@ -39,3 +39,5 @@ let tentativa = "";
 while (tentativa !== senhaCorreta) {
     tentativa = prompt("4. Digite a senha:");
 }
+
+*/
